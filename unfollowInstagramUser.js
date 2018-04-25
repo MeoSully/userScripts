@@ -1,4 +1,4 @@
-var people = prompt("Hãy nhập số người bạn đang theo dõi") / 16 * 1000;
+var people = prompt("Number of User you are following?") / 16 * 1000;
 var scroll = document.getElementsByClassName("_gs38e");
 var sdown  = setInterval(() => {scroll[0].scrollBy(0, scroll[0].scrollHeight);}, 500);
 setTimeout(function() {clearInterval(sdown);startLoop();}, people);
