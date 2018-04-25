@@ -3,7 +3,7 @@ All Script you can run on DevTools of browser
 
 # Includes
 * Instagram
-  * [getListFollowing.js](#getListFollowing)
+  * [getListFollowing.js](#getlistfollowing)
   * [loveInstagramNewsfeed.js]()
   * [unfollowInstagramUser.js]()
 * Facebook
