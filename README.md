@@ -3,14 +3,14 @@ All Script you can run on DevTools of browser
 
 # Includes
 * Instagram
-  * getListFollowing.js(#getListFollowing.js)
-  * loveInstagramNewsfeed.js(#loveInstagramNewsfeed.js)
+  * getListFollowing.js(#getListFollowing)
+  * loveInstagramNewsfeed.js(#loveInstagramNewsfeed)
 * Facebook
-  * kickAllMemberGroupChat.js(#kickAllMemberGroupChat.js)
+  * kickAllMemberGroupChat.js(#kickAllMemberGroupChat)
 * Flickr
-  * getAllOrig.js(#getAllOrig.js)
-  * getLatestImage.js(#getLatestImage.js)
+  * getAllOrig.js(#getAllOrig)
+  * getLatestImage.js(#getLatestImage)
   
 # How to Use
 
-## getListFollowing.js
+## getListFollowing
