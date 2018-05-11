@@ -92,7 +92,7 @@ Unblock all user in Settings > Block of Facebook.
 
 **V2 have the same usage method**
 
-## removeunavailablemember
+## removeUnavailableMember
 
 Remove Unavailable Member in your facebook group.
 ```objc
