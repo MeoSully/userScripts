@@ -11,6 +11,7 @@ All Script you can run on DevTools of browser
   * [seeOldMessagesv1.js](#seeoldmessagesv1)
   * [unblockUserv1.js](#unblockuserv1)
   * [unblockUserv2.js](#unblockuserv1)
+  * [removeUnavailableMember.js](#removeunavailablemember)
   
 # Description & How to Use
 
@@ -90,3 +91,14 @@ Unblock all user in Settings > Block of Facebook.
 ```
 
 **V2 have the same usage method**
+
+## removeunavailablemember
+
+Remove Unavailable Member in your facebook group.
+```objc
+  1. Open group unavailable member page (https://www.facebook.com/groups/*/unavailable_accounts/)
+  3. Open DevTools (Press F12) and switch to tab Console
+  4. Paste script & Run
+  5. Paste your Access Token to Prompt popup
+  6. Enjoy!
+```
