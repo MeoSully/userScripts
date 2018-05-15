@@ -12,6 +12,8 @@ All Script you can run on DevTools of browser
   * [unblockUserv1.js](#unblockuserv1)
   * [unblockUserv2.js](#unblockuserv1)
   * [removeUnavailableMember.js](#removeunavailablemember)
+* Wattpad
+  * [wattpadStoryContent.js](#wattpadStoryContent)
   
 # Description & How to Use
 
@@ -101,4 +103,13 @@ Remove Unavailable Member in your facebook group.
   4. Paste script & Run
   5. Paste your Access Token to Prompt popup
   6. Enjoy!
+```
+## wattpadStoryContent
+
+Copy content of story in wattpad (Just copy text).
+```objc
+  1. Open Your Story page (Example: https://www.wattpad.com/437675493-b%E1%BA%A1n-g%C3%A1i-t%C3%B4i-l%C3%A0-ho%E1%BA%A1-s%C4%A9-v%E1%BA%BD-truy%E1%BB%87n-18%2B-tr%C3%BAc-tr%C3%A2m-chap)
+  2. Open DevTools (Press F12) and switch to tab Console
+  3. Paste script & Run
+  4. Open your editor and paste it :D
 ```
