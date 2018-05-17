@@ -18,7 +18,7 @@
             $getId = json_decode(curl_exec($curl), true);
             curl_close($curl);
             foreach ($getId["photos"]["photo"] as $imgId) {
-                array_push($imageId, $imgId[id]);
+                array_push($imageId, $imgId["id"]);
             }
             sleep(5);
             foreach ($imageId as $id) {
