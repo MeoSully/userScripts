@@ -7,7 +7,7 @@ function startLoop() {
         var userBtn = document.getElementsByClassName("_5f5mN jIbKX KUBKM yZn4P");
         if (userBtn.length !== 0) {
             userBtn[0].click();
-            console.log("Unfollow: " + ((userBtn[0].parentElement).parentElement).parentElement.getElementsByClassName("FPmhX notranslate zsYNt")[0].getAttribute("href").replace(/\//g, ""));
+            console.log("Unfollow: " + userBtn[0].parentElement.parentElement.parentElement.getElementsByClassName("FPmhX notranslate zsYNt")[0].getAttribute("href").replace(/\//g, ""));
         } else {
             clearInterval(loop);
             console.log("%cDone!", "font-size: 40px;color: #1f74c1")
