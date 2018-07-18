@@ -117,4 +117,4 @@ Copy content of story in wattpad (Just copy text).
 
 ## addRemoveContext
 
-Just download addRemoveContext.bat, then fill in what batch file needs. That its.
+Just download addRemoveContext.bat, then fill in what batch file needs. That's all.
