@@ -12,7 +12,9 @@
   * [unblockUserv2.js](#unblockuserv1)
   * [removeUnavailableMember.js](#removeunavailablemember)
 * Wattpad
-  * [wattpadStoryContent.js](#wattpadStoryContent)
+  * [wattpadStoryContent.js](#wattpadstorycontent)
+* Batch (Windows)
+  * [addRemoveContext.bat](#addRemovecontext)
   
 # Description & How to Use
 
@@ -112,3 +114,7 @@ Copy content of story in wattpad (Just copy text).
   3. Paste script & Run
   4. Open your editor and paste it :D
 ```
+
+## addRemoveContext
+
+Just download addRemoveContext.bat, then fill in what batch file needs. That its.
