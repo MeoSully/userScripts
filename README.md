@@ -14,7 +14,7 @@
 * Wattpad
   * [wattpadStoryContent.js](#wattpadstorycontent)
 * Batch (Windows)
-  * [addRemoveContext.bat](#addRemovecontext)
+  * [addRemoveContext.bat](#addremovecontext)
   
 # Description & How to Use
 
