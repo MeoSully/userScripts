@@ -1,5 +1,5 @@
-// You have to run this script in DevTools of browser, this can't use if add to browser bookmark
-// And...you have to provide permission to facebook at chrome://settings/content/popups so this script can open image in new tab for you ;)
+// U have to run this script in DevTools of the browser, this can't use if add to the browser bookmark
+// And...u have to provide permission to facebook at chrome://settings/content/popups too so this script can open the image in new tab for u ;)
 new Promise((resolve, reject) => {
 	// Get ID of Image, if ID not exists => Let User Fill form
 	let url = document.URL, imgId;
