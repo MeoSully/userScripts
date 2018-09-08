@@ -1,0 +1,16 @@
+// Original Script: https://www.facebook.com/groups/j2team.community/permalink/560417194290405/
+function unblock(g) {
+	var $jscomp=$jscomp||{};$jscomp.scope={};$jscomp.ASSUME_ES5=!1;$jscomp.ASSUME_NO_NATIVE_MAP=!1;$jscomp.ASSUME_NO_NATIVE_SET=!1;$jscomp.defineProperty=$jscomp.ASSUME_ES5||"function"==typeof Object.defineProperties?Object.defineProperty:function(a,b,c){a!=Array.prototype&&a!=Object.prototype&&(a[b]=c.value)};$jscomp.getGlobal=function(a){return"undefined"!=typeof window&&window===a?a:"undefined"!=typeof global&&null!=global?global:a};$jscomp.global=$jscomp.getGlobal(this);$jscomp.SYMBOL_PREFIX="jscomp_symbol_";
+	$jscomp.initSymbol=function(){$jscomp.initSymbol=function(){};$jscomp.global.Symbol||($jscomp.global.Symbol=$jscomp.Symbol)};$jscomp.Symbol=function(){var a=0;return function(b){return $jscomp.SYMBOL_PREFIX+(b||"")+a++}}();
+	$jscomp.initSymbolIterator=function(){$jscomp.initSymbol();var a=$jscomp.global.Symbol.iterator;a||(a=$jscomp.global.Symbol.iterator=$jscomp.global.Symbol("iterator"));"function"!=typeof Array.prototype[a]&&$jscomp.defineProperty(Array.prototype,a,{configurable:!0,writable:!0,value:function(){return $jscomp.arrayIterator(this)}});$jscomp.initSymbolIterator=function(){}};$jscomp.arrayIterator=function(a){var b=0;return $jscomp.iteratorPrototype(function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}})};
+	$jscomp.iteratorPrototype=function(a){$jscomp.initSymbolIterator();a={next:a};a[$jscomp.global.Symbol.iterator]=function(){return this};return a};
+	(function(a,b,c,e){function h(a){return c("https://www.facebook.com/privacy/unblock_user/",{method:"POST",credentials:"include",body:k({uid:a,fb_dtsg:l,privacy_source:"privacy_settings_page"})}).then(function(){b.info("Unblocked User: "+a);e(f,300)})}function k(a){if("object"!==("undefined"===typeof a?"undefined":m(a)))if("string"===typeof a)try{a=JSON.parse(a)}catch(n){return!1}else return!1;var b=new FormData;Object.keys(a).map(function(d){b.append(d,a[d])});return b}function f(){0===g.length?b.info("Done!"):h(g.shift())}
+	var l=function(){if("function"!==typeof require)return null;try{return require("DTSGInitialData").token||a.querySelector('[name="fb_dtsg"]').value}catch(d){return null}}();$jscomp.initSymbol();$jscomp.initSymbol();$jscomp.initSymbolIterator();var m="function"===typeof Symbol&&"symbol"===typeof Symbol.iterator?function(a){return typeof a}:function(a){$jscomp.initSymbol();$jscomp.initSymbol();$jscomp.initSymbol();return a&&"function"===typeof Symbol&&a.constructor===Symbol&&a!==Symbol.prototype?"symbol":
+	typeof a};e(function(){b.log("%cDeveloped by Juno_okyo \u2013 J2TEAM \u2013 Edited By Storm","-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;margin:0 auto;border:none;font:400 60px/normal Anton,Helvetica,sans-serif;color:#707070;text-align:center;text-transform:uppercase;-o-text-overflow:clip;text-overflow:clip;letter-spacing:10px;text-shadow:4px 4px 0 #eee,6px 6px 0 #707070");f()},10)})(document,console,fetch,setTimeout);
+}
+
+// Trigger
+// Open https://www.facebook.com/settings?tab=blocking and run this script at there
+var data = Array.from(document.querySelectorAll("[name='uid']")).map((element) => element.value);
+// var data = "".split(" ");
+Promise.resolve(data).then((e) => {unblock(e);});
