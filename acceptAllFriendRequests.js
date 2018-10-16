@@ -13,7 +13,7 @@ Array.from(document.querySelectorAll(".friendRequestItem")).map((e) => e.getAttr
 		return new Promise((resolve, reject) => {
 			fetch("https://www.facebook.com/requests/friends/ajax/?dpr=1", {method: "POST", body: f, credentials: "include"}).then((e) => {
 				if (String(e.status).match(/^2/g)) {
-					console.log(`Rejected Friend Request From: ${id}`);
+					console.log(`Accepted Friend Request From: ${id}`);
 					resolve();
 				}
 			});
