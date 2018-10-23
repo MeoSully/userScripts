@@ -1,12 +1,7 @@
 function scroll() {
 	return new Promise((resolve, reject) => {
 		let interval = setInterval(function() {
-			if (document.querySelector(".last-page > div") !== null) {
-				clearInterval(interval);
-				resolve(document.body.scrollHeight);
-            } else {
-				window.scrollBy(0, 2000);
-            }
+			(document.querySelector(".last-page > div") !== null) ? (clearInterval(interval), resolve(document.body.scrollHeight)) : window.scrollBy(0, 2000);
         }, 1000);
     });
 }
